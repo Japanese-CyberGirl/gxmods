@@ -1,0 +1,42 @@
+{
+    "manifest_version": 3,
+    "name": "NekoSound",
+    "description": "best sounds.",
+    "version": "1.0",
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "developer":
+    {
+        "name": "Opera Software"
+    },
+    "mod":
+    {
+        "schema_version": 1,
+        "payload":
+        {
+            "keyboard_sounds":
+            {
+                "TYPING_LETTER":
+                [
+                    "sounds/key.mp3",
+                    "sounds/key1.mp3",
+                    "sounds/key2.mp3",
+                ],
+                "TYPING_ENTER":
+                [
+                    "sounds/enter.mp3"
+                ],
+                "TYPING_SPACE":
+                [
+                    "sounds/space.mp3"
+                ],
+                "TYPING_BACKSPACE":
+                [
+                    "sounds/back.mp3"
+                ]
+            }
+        }
+    }
+}
